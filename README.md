@@ -1,3 +1,4 @@
+# shp2geojson
 ## Parsing cadastral spatial data to GEOJSON in MacOS
 
 #### Requirements
@@ -12,13 +13,15 @@ brew install osgeo/osgeo4mac/qgis
 
 There are two ways to test out this code.
 
-*Standalone script in terminal*
+**Standalone script in terminal**
+
 Check whether all requirements are met, check if all the paths are correct, then run the bash script `./script.sh`.
 All geojson files are now in `geojson` folder.
 
-*Through Python console in QGIS (GUI)*
-Install [QGIS] (https://qgis.org)
-Plugins > Python Console
+**Through Python console in QGIS (GUI)**
+
+* Install [QGIS] (https://qgis.org)
+* Plugins > Python Console
 This can only process each layer at once, please ensure the path to each shp layer
 is correct.
 
