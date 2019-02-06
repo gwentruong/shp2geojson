@@ -6,15 +6,15 @@
 * [GDAL : ogr2ogr] (https://github.com/wavded/ogr2ogr)
 * QGIS (I used the path from [osgeo/osgeo4mac] (https://github.com/OSGeo/homebrew-osgeo4mac#how-do-i-install-these-formulae))
 ```
+brew tap osgeo/osgeo4mac
 brew install osgeo/osgeo4mac/qgis
 ```
 
-There are two ways you can test out my code. I found my solution only related to those
-shapefiles `*_palstaalue.shp` from cadastral directories.
+There are two ways to test out this code.
 
 *Standalone script in terminal*
-Meet all requirements, check if all the paths are correct, and run the bash script `./script.sh`.
-All geojson files are in `geojson` folder.
+Check whether all requirements are met, check if all the paths are correct, then run the bash script `./script.sh`.
+All geojson files are now in `geojson` folder.
 
 *Through Python console in QGIS (GUI)*
 Install [QGIS] (https://qgis.org)
