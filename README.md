@@ -4,8 +4,8 @@
 #### Requirements
 * Python 3.6
 * PyQt 5
-* [GDAL : ogr2ogr] (https://github.com/wavded/ogr2ogr)
-* QGIS (I used the path from [osgeo/osgeo4mac] (https://github.com/OSGeo/homebrew-osgeo4mac#how-do-i-install-these-formulae))
+* [GDAL : ogr2ogr](https://github.com/wavded/ogr2ogr)
+* QGIS (I used the path from [osgeo/osgeo4mac](https://github.com/OSGeo/homebrew-osgeo4mac#how-do-i-install-these-formulae))
 ```
 brew tap osgeo/osgeo4mac
 brew install osgeo/osgeo4mac/qgis
@@ -16,11 +16,12 @@ There are two ways to test out this code.
 **Standalone script in terminal**
 
 Check whether all requirements are met, check if all the paths are correct, then run the bash script `./script.sh`.
+
 All geojson files are now in `geojson` folder.
 
 **Through Python console in QGIS (GUI)**
 
-* Install [QGIS] (https://qgis.org)
+* Install [QGIS](https://qgis.org)
 * Plugins > Python Console
 This can only process each layer at once, please ensure the path to each shp layer
 is correct.
